@@ -1,0 +1,9 @@
+@extends('layout.app')
+@section('title')
+    Home
+@endsection
+@section('content')
+    @include('home.partials.about_section')
+    @include('home.partials.space_light')
+    @include('home.partials.our_services')
+@endsection
