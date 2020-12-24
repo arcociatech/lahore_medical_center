@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-5">
                 <h2>
-                    Why Choose<br /> Mededin Care?
+                    Why Choose<br /> Lahore Medical Center?
                 </h2>
                 <hr>
                 <div class="row">
@@ -12,7 +12,7 @@
                             <i class="fas fa-check"></i>
                             <div class="why-choose_list-content">
                                 <h5>Advanced Care</h5>
-                                <span>Lorem ipsum dolor sit</span>
+                                <span>We provide advance care to our patients</span>
                             </div>
                         </div>
                     </div>
@@ -20,8 +20,8 @@
                         <div class="why-choose_list why-choose_list-br">
                             <i class="fas fa-check"></i>
                             <div class="why-choose_list-content">
-                                <h5>Online Medicine</h5>
-                                <span>Lorem ipsum dolor sit</span>
+                                <h5>Treatment</h5>
+                                <span>We provide best treatment to over patients</span>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <i class="fas fa-check"></i>
                             <div class="why-choose_list-content">
                                 <h5>Medical & Surgical</h5>
-                                <span>Lorem ipsum dolor sit</span>
+                                <span>We provide best medical facilities</span>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             <i class="fas fa-check"></i>
                             <div class="why-choose_list-content">
                                 <h5>Lab Tests</h5>
-                                <span>Lorem ipsum dolor sit</span>
+                                <span>We provide best laboratories</span>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="#" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
+                        <a href="{{url('patients_appointment/index')}}" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
                     </div>
                 </div>
             </div>
@@ -60,8 +60,8 @@
                         Emergency?<br /> Contact Us.
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br /> sed do eius mod tempor
-                        incididunt ut labore et dolore<br /> magna aliqua. Ut enim ad minim veniam
+                        We are always here to make sure your time at Lahore Medical Center is as pleasant as possible.
+                        {{-- If you have any questions or concerns, please do not hesitate to contact us via phone, email, or by filing out the message box below. --}}
                     </p>
                     <div class="why-choose_list">
                         <div class="choose-icon">
@@ -69,7 +69,9 @@
                         </div>
                         <div class="why-choose_list-content">
                             <span>Call us now</span>
-                            <h3>+123 456 7890</h3>
+                            <h3>053-3724611</h3>
+                            <h3>053-9260459</h3>
+
                         </div>
                     </div>
                     <div class="why-choose_list">
@@ -78,8 +80,7 @@
                         </div>
                         <div class="why-choose_list-content">
                             <span>Mail us</span>
-                            <h3><a href="https://demo.web3canvas.com/cdn-cgi/l/email-protection" class="__cf_email__"
-                                    data-cfemail="d8b1b6beb798b5bdbcbdb6b1b6f6bbb7b5">[email&#160;protected]</a>
+                            <h3><a href="mailto:lmcgujrat@gmail.com" class="__cf_email__ text-light" data-cfemail="d8b1b6beb798b5bdbcbdb6b1b6f6bbb7b5">lmcgujrat@gmail.com</a>
                             </h3>
                         </div>
                     </div>

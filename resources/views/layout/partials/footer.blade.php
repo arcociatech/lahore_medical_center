@@ -3,18 +3,23 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="foot-contact-block">
-                    <img src="images/foot-logo.png" class="img-fluid" alt="#" />
+                    <h4>Lahore Medical Center</h4>
+                    {{-- <img src="images/foot-logo.png" class="img-fluid" alt="#" /> --}}
                     <p>
-                        Lorem ipsum dolor sit amet, consect <br /> etur adipisicing elit, sed do eius mod <br /> tempor
-                        incididunt ut labore et dolore<br /> magna aliqua. Ut enim ad minim
+                         Opp. Service Coloney, G.T.Road, Gujrat.
                     </p>
-                    <a href="tel:31234567890">
-                        <h4><i class="fas fa-phone"></i>3123 456 7890</h4>
+                    <a href="tel:053-3724611">
+                        <h4><i class="fas fa-phone"></i>053-3724611</h4>
                     </a>
-                    <a href="https://demo.web3canvas.com/cdn-cgi/l/email-protection#3e575058517e535b5a5b5a5750105d5153">
+                    <a href="tel:053-9260459">
+                        <h4><i class="fas fa-phone"></i>053-9260459</h4>
+                    </a>
+                    <a href="mailto:lmcgujrat@gmail.com">
                         <h4><i class="far fa-envelope"></i><span class="__cf_email__"
-                                data-cfemail="b3daddd5dcf3ded6d7d6d7dadd9dd0dcde">[email&#160;protected]</span></h4>
+                                data-cfemail="b3daddd5dcf3ded6d7d6d7dadd9dd0dcde">lmcgujrat@gmail.com
+                            </span></h4>
                     </a>
+                    {{-- <a href="mailto:Text@gmail.com">Text@gmail.com</a> --}}
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
@@ -28,13 +33,13 @@
                             <a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Our Services</a>
+                            <a href="{{url('department/index')}}"><i class="fas fa-angle-double-right"></i>Our Services</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
+                            <a href="{{url('blog/index')}}"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Contact Us</a>
+                            <a href="{{url('contact/index')}}"><i class="fas fa-angle-double-right"></i>Contact Us</a>
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-angle-double-right"></i>Faq</a>

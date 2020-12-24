@@ -12,9 +12,12 @@
 <body>
     <header>
         <div class="banner--wrap">
-            @include('layout.partials.nav')
+
             @if (Request::is('/') || Request::is('home'))
-                @include('layout.partials.banner')
+                @include('layout.partials.nav')
+                {{-- @include('layout.partials.banner') --}}
+            @else
+                @include('layout.partials.navbar2')
             @endif
         </div>
     </header>
