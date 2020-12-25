@@ -23,3 +23,11 @@ Route::get('blog/index', 'MedicalController@blog');
 Route::get('contact/index', 'MedicalController@contact');
 Route::get('shahida-husain-tarar/', 'MedicalController@doctor1');
 Route::get('muhammad-afzal-ch/', 'MedicalController@doctor2');
+
+
+//Contact Route
+
+Route::group(['prefix' => 'contact'], function () {
+    Route::get('/create','ContactController@create');
+    Route::post('/','ContactController@store');
+});

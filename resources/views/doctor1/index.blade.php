@@ -5,5 +5,5 @@
 @section('content')
     @include('doctor1.partials.section1')
     @include('doctor1.partials.section2')
-    @include('doctor1.partials.section3')
+    {{-- @include('doctor1.partials.section3') --}}
 @endsection

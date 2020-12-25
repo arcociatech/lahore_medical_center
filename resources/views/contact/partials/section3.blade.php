@@ -61,25 +61,27 @@
                         <i class="fas fa-phone-volume"></i>
                         <div class="contact-title_icon">
                             <p>Phone</p>
-                            <h6>+123 456 7890</h6>
+                            <a href="tel:053-3724611"><h4>053-3724611</h4></a>
+                            <a href="tel:053-9260459"><h4>053-9260459</h4></a>
+                            {{-- <h6>+123 456 7890</h6> --}}
                         </div>
                     </div>
                     <div class="contact-title">
                         <i class="fas fa-envelope"></i>
                         <div class="contact-title_icon">
                             <p>Email</p>
-                            <h6><a href="https://demo.web3canvas.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0d64636b624d68756c607d6168236e6260">[email&#160;protected]</a></h6>
+                            <h6><a href="mailto:lmcgujrat@gmail.com" class="__cf_email__" data-cfemail="0d64636b624d68756c607d6168236e6260">lmcgujrat@gmail.com</a></h6>
                         </div>
                     </div>
                     <hr>
                 </div>
                 <div class="contact-box">
                     <div class="contact-title">
-                        <h4>Head Office</h4>
+                        <h4>Location</h4>
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="contact-title_icon">
                             <p>Location</p>
-                            <h6>2663 Lodgeville Road <br> Milliapolis, Minnasotta <br> 55402, USA</h6>
+                            <h6>Opp. Servis Coloney <br> G.T. Road, <br> Gujrat</h6>
                         </div>
                     </div>
                 </div>

@@ -126,7 +126,7 @@
                                         </ul>
                                     </li> --}}
                                     <li class="nav-item">
-                                        <a class="nav-link btn btn-outline-primary appointment-btn-top" href="{{url('patients_appointment/index')}}">Appointment</a>
+                                        <a class="nav-link btn btn-outline-primary appointment-btn-top" href="tel:053-3724611">Appointment</a>
                                     </li>
                                 </ul>
                             </div>
@@ -150,7 +150,7 @@
                                 <p>
                                     Our goal is & has always been to provide the best healthcare possible to all of our patients.
                                 </p>
-                                <a href="{{url('patients_appointment/index')}}" class="btn btn-primary">Make Appointment</a>
+                                <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
                                 {{-- <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> --}}
                             </div>
 
@@ -197,7 +197,7 @@
                                 <p>
                                     We pride ourselves on offering a modern and technologically advanced medical facility with world leading equipment to provide you with the best healthcare possible.
                                 </p>
-                                <a href="{{url('patients_appointment/index')}}" class="btn btn-primary">Make Appointment</a>
+                                <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
                                 {{-- <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> --}}
                             </div>
 
@@ -244,7 +244,7 @@
                                 <p>
                                     Our physical infrastructure has been custom-built based on the best practices of top medical facilities around the world.
                                 </p>
-                                <a href="{{url('patients_appointment/index')}}" class="btn btn-primary">Make Appointment</a>
+                                <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
                                 {{-- <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> --}}
                             </div>
 

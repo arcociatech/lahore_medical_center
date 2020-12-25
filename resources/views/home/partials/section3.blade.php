@@ -50,7 +50,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="{{url('patients_appointment/index')}}" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
+                        <a href="tel:053-3724611" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
                     </div>
                 </div>
             </div>

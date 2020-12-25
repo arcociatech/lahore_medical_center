@@ -7,3 +7,4 @@
 <script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
 
 <script src="{{asset('assets/js/script.js')}}"></script>
+@include('sweetalert::alert');

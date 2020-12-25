@@ -32,13 +32,13 @@
                     </div>
                 </div>
                 <hr>
-                <div class="testi-slider-style2-nav">
+                {{-- <div class="testi-slider-style2-nav">
                     <div><img src="{{asset('images/client-logo1.png')}}" class="img-fluid" alt="#"></div>
                     <div><img src="{{asset('images/client-logo2.png')}}" class="img-fluid" alt="#"></div>
                     <div><img src="{{asset('images/client-logo1.png')}}" class="img-fluid" alt="#"></div>
                     <div><img src="{{asset('images/client-logo4.png')}}" class="img-fluid" alt="#"></div>
                     <div><img src="{{asset('images/client-logo5.png')}}" class="img-fluid" alt="#"></div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

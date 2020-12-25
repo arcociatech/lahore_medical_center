@@ -7,5 +7,5 @@
     @include('contact.partials.section2')
     @include('contact.partials.section4')
     @include('contact.partials.section3')
-    @include('contact.partials.section5')
+    {{-- @include('contact.partials.section5') --}}
 @endsection

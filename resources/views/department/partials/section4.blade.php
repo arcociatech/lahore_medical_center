@@ -1,7 +1,7 @@
-<section class="space background-bg4">
-    <div class="container container-custom">
+<section>
+    {{-- <div class="container container-custom"> --}}
         <div class="row">
-            <div class="col-md-12 col-lg-6">
+            {{-- <div class="col-md-12 col-lg-6">
                 <div class="appointment-form_wrap">
                     <div class="heading-style1">
                         <span>Online Booking</span>
@@ -65,7 +65,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> --}}
             <div class="col-md-12 col-lg-6">
                 <div class="why-choose_block">
                     <div class="heading-style1 mb-0">
@@ -84,8 +84,8 @@
                     <div class="whychoose-wrap">
                         <img src="{{asset('images/icon2.png')}}" alt="#">
                         <div class="whychoose-text_block">
-                            <h4>Free Ambulance Servcice</h4>
-                            <p>We provide Ambulance Services</p>
+                            <h4>Labortaries</h4>
+                            <p>We provide best Lab Services</p>
                         </div>
                     </div>
                     <div class="whychoose-wrap">
