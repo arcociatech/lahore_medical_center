@@ -194,7 +194,7 @@
                                 {{-- <h5>Sonia Shaw</h5>
                                 <p>Project Leader</p> --}}
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{-- <h5>{{ Auth::user()->name }}</h5> --}}
+                                    <h5>{{ Auth::user()->name }}</h5>
                                 </a>
                             </div>
 

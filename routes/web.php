@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::get('/', 'MedicalController@home');
 Route::get('department/index', 'MedicalController@department');
 Route::get('patients_services/index', 'MedicalController@patients_services');
@@ -32,24 +34,26 @@ Route::group(['prefix' => 'contact'], function () {
     Route::post('/','ContactController@store');
 });
 
-Route::get('/admin_dashboard','AdminPanelController@admin_dashboard');
+
 
 Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
 
-Route::get('/home','AdminPanelController@admin_dashboard');
+    Route::get('/admin_dashboard','AdminPanelController@admin_dashboard');
+
+    // Route::get('/home','AdminPanelController@admin_dashboard');
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 });
 
-// Auth::routes();
+
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 /*
-*User Route
+*Blog Route
 *
 */
 Route::group(['prefix' => 'blog'], function () {
