@@ -31,3 +31,32 @@ Route::group(['prefix' => 'contact'], function () {
     Route::get('/create','ContactController@create');
     Route::post('/','ContactController@store');
 });
+
+Route::get('/admin_dashboard','AdminPanelController@admin_dashboard');
+
+Auth::routes();
+
+Route::group(['middleware' => 'auth'], function () {
+
+Route::get('/home','AdminPanelController@admin_dashboard');
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+});
+
+// Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+/*
+*User Route
+*
+*/
+Route::group(['prefix' => 'blog'], function () {
+    Route::get('/create','BlogController@create');
+    Route::get('/index','BlogController@index');
+    Route::post('/','BlogController@store');
+    Route::get('/edit/{id}','BlogController@edit');
+    Route::put('/edit/{id}','BlogController@update');//update
+    Route::delete('/{id}','BlogController@destroy');//delete
+});

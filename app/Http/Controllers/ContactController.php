@@ -53,7 +53,6 @@ class ContactController extends Controller
         $message=$request->input('message');
 
         Mail::to(config('mail.from.address'))->send(new SendMail($first_name,$last_name,$number,$message,$email));
-
         alert()->success('Your message send successfully');
         return redirect()->back();
 
