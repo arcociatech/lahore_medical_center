@@ -4,8 +4,8 @@
             <div class="col-md-6">
                 <div class="sub-header_content">
                     <p>BLOG</p>
-                    <h3>Lorem ipsum dolor sit ametco nse<br> ctetur adipisicing elitsed.</h3>
-                    <span><i>Home / Blog </i></span>
+                    <h3>Here is all the information related hospital.</h3>
+                    <span><i>Home / Blog List</i></span>
                 </div>
             </div>
             <div class="col-md-6">

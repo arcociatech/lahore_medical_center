@@ -65,4 +65,10 @@ class MedicalController extends Controller
     {
         return view('doctor2.index');
     }
+
+    // Doctor3 view
+    public function doctor3()
+    {
+        return view('doctor3.index');
+    }
 }

@@ -8,7 +8,7 @@
                 <img src="{{asset('assets/img/profile-17.jpg')}}" alt="avatar">
                 {{-- <h6 class="">Susan Phillips</h6> --}}
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                    <h6>{{ Auth::user()->name }}</h6>
+                    {{-- <h6>{{ Auth::user()->name }}</h6> --}}
                     <p class=""><b>Web Developer</b></p>
                 </a>
             </div>
@@ -38,7 +38,7 @@
 
 
             <li class="menu">
-                <a href="#user" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a href="#blog" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
                         <span>Blog</span>
@@ -47,13 +47,35 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                     </div>
                 </a>
-                <ul class="collapse submenu list-unstyled" id="user" data-parent="#accordionExample">
+                <ul class="collapse submenu list-unstyled" id="blog" data-parent="#accordionExample">
 
                     <li>
                         <a href="{{url('blog/create')}}"> Blog Create </a>
                     </li>
                     <li>
                         <a href="{{url('blog/index')}}"> Blog View </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu">
+                <a href="#notice_board" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+                        <span>Notice Board</span>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </div>
+                </a>
+                <ul class="collapse submenu list-unstyled" id="notice_board" data-parent="#accordionExample">
+
+                    <li>
+                        <a href="{{url('notice_board/create')}}"> Notice Create </a>
+                    </li>
+                    <li>
+                        <a href="{{url('notice_board/index')}}"> Notice View </a>
                     </li>
 
                 </ul>

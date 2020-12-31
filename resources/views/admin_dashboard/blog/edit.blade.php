@@ -29,9 +29,12 @@ Blog View
                 <form action="{{action('BlogController@update',$blog->id)}}" method="post"
                     enctype="multipart/form-data">
                     @csrf
-
+                    @method('put')
+                    <img class="img-thumbnail" width="80px" hieght="80px" src="{{asset('images/'.$blog->image)}}">
                     <div class="form-row mb-4">
+
                         <p><b>Upload image</b></p>
+
                         <div class="custom-file">
                             <input type="file" name="image" class="custom-file-input" id="customFile">
                             <label class="custom-file-label" for="customFile">Choose file</label>

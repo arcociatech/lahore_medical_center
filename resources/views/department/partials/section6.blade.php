@@ -30,6 +30,25 @@
                         </p>
                         <span>Dr. Muhammad Afzal Ch.</span>
                     </div>
+
+                    <div class="testimonial-style2">
+                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                        <p>
+                            The pediatric department at Lahore Medical Center provides outpatient care to all children from newborn to adolescence. The Lahore Medical Center services are run by consultants with a vast experience in their field.
+
+                            Full attention is given to their medical needs and parent’s concerns. Proper investigations, if needed are done and appropriate advice and medication are given accordingly.
+
+                            These services are provided in the Lahore Medical Center. Newborn well baby clinic, Childhood Vaccinations, Growth monitoring & Child Development, Pediatric Primary care clinic, Medical pediatric issues of children like respiratory, digestive , cardiac, neurological, infectious etc are dealt in the clinic.
+                        </p>
+                        <span>Dr. Muhammad Anas</span>
+                    </div>
                 </div>
                 <hr>
                 {{-- <div class="testi-slider-style2-nav">

@@ -44,6 +44,10 @@
                                             <li class="nav-item">
                                                 <a class="dropdown-item" href="{{url('muhammad-afzal-ch/')}}">Dr. Muhammad Afzal Ch.</a>
                                             </li>
+
+                                            <li class="nav-item">
+                                                <a class="dropdown-item" href="{{url('muhammad-anas/')}}">Dr. Muhammad Anas</a>
+                                            </li>
                                             {{-- <li>
                                                 <a
                                                  href="{{url('patients_services/index')}}">Services <i
@@ -96,7 +100,7 @@
                                     </li> --}}
 
                                     <li class="">
-                                        <a class="nav-link dropdown-toggle" href="{{url('blog/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Blog </a>
+                                        <a class="nav-link dropdown-toggle" href="{{url('blogs/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Blog </a>
                                     </li>
 
                                     <li class="">

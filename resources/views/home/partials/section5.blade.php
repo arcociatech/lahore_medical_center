@@ -11,6 +11,27 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="doctors-slider">
+                    <div class="team-img_block green">
+                        <div class="team-img-socila-block">
+                            <img src="{{asset('images/team2.jpg')}}" class="img-fluid" alt="#" />
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>Dr.Muhammad Anas</h4>
+                        <p>Child Specialist</p>
+                    </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
                             <img src="{{asset('images/team1.jpg')}}" class="img-fluid" alt="#" />

@@ -21,10 +21,11 @@ Route::get('patients_services/index', 'MedicalController@patients_services');
 Route::get('patients_appointment/index', 'MedicalController@patients_appointment');
 Route::get('patients_our_doctor/index', 'MedicalController@patients_our_doctor');
 Route::get('patients_pricing/index', 'MedicalController@patients_pricing');
-Route::get('blog/index', 'MedicalController@blog');
+Route::get('blogs/index', 'MedicalController@blog');
 Route::get('contact/index', 'MedicalController@contact');
 Route::get('shahida-husain-tarar/', 'MedicalController@doctor1');
 Route::get('muhammad-afzal-ch/', 'MedicalController@doctor2');
+Route::get('muhammad-anas/', 'MedicalController@doctor3');
 
 
 //Contact Route
@@ -63,4 +64,19 @@ Route::group(['prefix' => 'blog'], function () {
     Route::get('/edit/{id}','BlogController@edit');
     Route::put('/edit/{id}','BlogController@update');//update
     Route::delete('/{id}','BlogController@destroy');//delete
+});
+
+
+
+/*
+*Notice Board Route
+*
+*/
+Route::group(['prefix' => 'notice_board'], function () {
+    Route::get('/create','NoticeBoardController@create');
+    Route::get('/index','NoticeBoardController@index');
+    Route::post('/','NoticeBoardController@store');
+    Route::get('/edit/{id}','NoticeBoardController@edit');
+    Route::put('/edit/{id}','NoticeBoardController@update');//update
+    Route::delete('/{id}','NoticeBoardController@destroy');//delete
 });

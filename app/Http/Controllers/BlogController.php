@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Yajra\DataTables\Facades\DataTables;
 use Yajra\DataTables\Services\DataTable;
 
@@ -23,11 +24,11 @@ class BlogController extends Controller
                     return $row->header;
                 })
                 ->editcolumn('image', function ($row) {
-                    return '<img class="img-thumbnail" width="80px" hieght="80px" src="'.asset($row->image).'">';
+                    return '<img class="img-thumbnail" width="80px" hieght="80px" src="'.asset('images/'.$row->image).'">';
                 })
 
                 ->addcolumn('actions', function ($row) {
-                    return ' <a href="' . url("blog/edit/" . $row->id) . '" class="btn btn-info float-left">
+                    return ' <a href="' . url("blog/edit/" . encrypt($row->id)) . '" class="btn btn-info float-left">
                                     Edit
                              </a>
                         <form action="' . action("BlogController@destroy", $row->id) . '" method="post" class="float-left ml-2">' .
@@ -67,7 +68,8 @@ class BlogController extends Controller
             'header' => 'required',
             'description' => 'required',
         ]);
-        $path= $request->file('image')->store('images/blog');
+        // $path= $request->file('image')->store('images/blog');
+        $path=Storage::put('blog',$request->file('image'));
         $blog = new Blog();
         $blog->image = $path;
         $blog->header = $request->input('header');
@@ -96,6 +98,7 @@ class BlogController extends Controller
      */
     public function edit($id)
     {
+        $id=decrypt($id);
         $blog = Blog::find($id);
         return view('admin_dashboard.blog.edit', compact('blog'));
     }
@@ -116,7 +119,8 @@ class BlogController extends Controller
         ]);
         $blog = Blog::find($id);
         if($request->hasFile('image')){
-            $path= $request->file('image')->store('images/blog');
+            // $path= $request->file('image')->store('images/blog');
+            $path=Storage::put('blog',$request->file('image'));
             $blog->image = $path;
         }
         $blog->header = $request->input('header');
