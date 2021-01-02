@@ -22,10 +22,12 @@ Route::get('patients_appointment/index', 'MedicalController@patients_appointment
 Route::get('patients_our_doctor/index', 'MedicalController@patients_our_doctor');
 Route::get('patients_pricing/index', 'MedicalController@patients_pricing');
 Route::get('blogs/index', 'MedicalController@blog');
+Route::get('blog-detail/{id}', 'MedicalController@blog_detail');
 Route::get('contact/index', 'MedicalController@contact');
 Route::get('shahida-husain-tarar/', 'MedicalController@doctor1');
 Route::get('muhammad-afzal-ch/', 'MedicalController@doctor2');
 Route::get('muhammad-anas/', 'MedicalController@doctor3');
+Route::get('machinery/', 'MedicalController@machinery');
 
 
 //Contact Route

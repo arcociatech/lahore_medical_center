@@ -48,7 +48,7 @@ create Blog
 
                     <div class="form-row mb-4">
                         <p><b>Describe</b></p>
-                        <textarea aria-required="true" rows="3" cols="45" name="description" id="description"
+                        <textarea aria-required="true" rows="3" cols="45" name="description" minlength="150" id="description"
                             value="description" class="form-control" placeholder="Description"></textarea>
                     </div>
 

@@ -64,9 +64,9 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'image' => 'required',
-            'header' => 'required',
-            'description' => 'required',
+            'image' => 'required|image',
+            'header' => 'required|min:15|max:50',
+            'description' => 'required|min:150',
         ]);
         // $path= $request->file('image')->store('images/blog');
         $path=Storage::put('blog',$request->file('image'));
@@ -113,9 +113,9 @@ class BlogController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'image' => 'required',
-            'header' => 'required',
-            'description' => 'required',
+            'image' => 'required|image',
+            'header' => 'required|min:15|max:50',
+            'description' => 'required|min:150',
         ]);
         $blog = Blog::find($id);
         if($request->hasFile('image')){

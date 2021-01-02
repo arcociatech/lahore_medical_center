@@ -141,6 +141,9 @@
                                             <a class="dropdown-item" href="blog-details.html">Blog Details</a>
                                         </div>
                                     </li> --}}
+                                    <li class="">
+                                        <a class="nav-link dropdown-toggle" href="{{url('machinery/')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Machinery</a>
+                                    </li>
 
                                     <li class="">
                                         <a class="nav-link dropdown-toggle" href="{{url('blogs/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Blog</a>

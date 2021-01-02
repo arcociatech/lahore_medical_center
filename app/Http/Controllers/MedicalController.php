@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Blog;
 
 class MedicalController extends Controller
 {
@@ -45,7 +46,16 @@ class MedicalController extends Controller
     // Blog view
     public function blog()
     {
-        return view('blog.index');
+        $blog = Blog::get();
+        return view('blog.index',compact('blog'));
+    }
+
+    // Blog Detail view
+    public function blog_detail($id)
+    {
+        $id=decrypt($id);
+        $blog = Blog::find($id);
+        return view('blog_detail.index',compact('blog'));
     }
 
     // Contact view
@@ -70,5 +80,11 @@ class MedicalController extends Controller
     public function doctor3()
     {
         return view('doctor3.index');
+    }
+
+    // Doctor3 view
+    public function machinery()
+    {
+        return view('machinery.index');
     }
 }
