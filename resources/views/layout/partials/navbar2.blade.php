@@ -7,7 +7,7 @@
                         <div class="top-bar">
                             <div class="row">
                                 <div class="col-lg-3 col-md-12">
-                                    <a class="navbar-brand" href="index.html">
+                                    <a class="navbar-brand" href="{{ url('/') }}">
                                         <h4>Lahore Medical Center</h4>
                                         {{-- <img src="images/logo.png" alt="#"> --}}
                                     </a>
@@ -25,13 +25,16 @@
                                         <li>
                                             <img src="{{asset('images/call-icon.png')}}" alt="#">
                                             <div>
-                                                <span>Toll Free</span>
+                                                {{-- <span>Toll Free</span> --}}
                                                 <a href="tel:053-3724611"><h4>053-3724611</h4></a>
                                                 <a href="tel:053-9260459"><h4>053-9260459</h4></a>
                                             </div>
                                         </li>
                                         <li class="appointment-btn">
-                                            <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
+                                            <a href="tel:053-3724611" class="btn btn-primary">
+                                                Call Us
+                                                <span class="fa fa-phone"></span>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>

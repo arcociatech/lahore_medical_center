@@ -78,7 +78,7 @@
                                 <p>
                                     Our goal is & has always been to provide the best healthcare possible to all of our patients.
                                 </p>
-                                <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
+                                <a href="tel:053-3724611" class="btn btn-primary">Call Us <i class="fa fa-phone"></i></a>
                             </div>
 
                         </div>
