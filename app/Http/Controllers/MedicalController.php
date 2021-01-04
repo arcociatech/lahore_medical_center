@@ -4,13 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Blog;
+use App\Models\NoticeBoard;
 
 class MedicalController extends Controller
 {
     // Home view
     public function home()
     {
-        return view('home.index');
+        $blog = Blog::get();
+        $notice_board=NoticeBoard::get();
+        return view('home.index',compact('blog','notice_board'));
     }
 
     // Departments view

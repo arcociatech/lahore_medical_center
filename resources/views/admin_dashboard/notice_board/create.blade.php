@@ -31,7 +31,7 @@ create Notice
                     <div class="form-row mb-4">
                         <p><b>Enter Notice </b></p>
                         <textarea aria-required="true" rows="3" cols="45" name="notice_board" id="notice_board"
-                        value="{{old('notice_board')}}" class="form-control @error('notice_board') is-invalid @enderror" placeholder="Notice Board"></textarea>
+                        value="{{old('notice_board')}}" minlength="150" class="form-control @error('notice_board') is-invalid @enderror" placeholder="Notice Board"></textarea>
                         @error('notice_board')
                         <div class="text-danger">{{ $message }}</div>
                         @enderror

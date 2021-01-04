@@ -11,4 +11,5 @@
     @include('home.partials.section6')
     {{-- @include('home.partials.section7') --}}
     @include('home.partials.section8')
+    @include('home.partials.section9')
 @endsection

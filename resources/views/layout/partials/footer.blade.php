@@ -27,13 +27,13 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>About Us</a>
+                            <a href="{{url('/')}}"><i class="fas fa-angle-double-right"></i>Home</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
+                            <a href="{{url('department/index')}}"><i class="fas fa-angle-double-right"></i>Departments</a>
                         </li>
                         <li>
-                            <a href="{{url('department/index')}}"><i class="fas fa-angle-double-right"></i>Our Services</a>
+                            <a href="{{url('machinery/index')}}"><i class="fas fa-angle-double-right"></i>Machinery</a>
                         </li>
                         <li>
                             <a href="{{url('blog/index')}}"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
@@ -41,9 +41,7 @@
                         <li>
                             <a href="{{url('contact/index')}}"><i class="fas fa-angle-double-right"></i>Contact Us</a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Faq</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -52,41 +50,30 @@
                     <h4>Our Services</h4>
                     <ul>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Pediatrics</a>
+                            <a href="{{url('shahida-husain-tarar/')}}"><i class="fas fa-angle-double-right"></i>Gynaecology</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Dermatology</a>
+                            <a href="{{url('muhammad-afzal-ch/')}}"><i class="fas fa-angle-double-right"></i>Gastroenterology</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Cardiology</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Psychological</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Surgery</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-angle-double-right"></i>Family Medicine</a>
+                            <a href="{{url('muhammad-anas/')}}"><i class="fas fa-angle-double-right"></i>Child specialist</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-4 col-lg-2 offset-lg-1">
                 <div class="foot-link-box footlink-box_btn">
-                    <a href="#" class="btn btn-outline-success">Find a Doctor</a>
-                    <a href="#" class="btn btn-outline-success">Career</a>
-                    <a href="#" class="btn btn-outline-success">Newsletter</a>
+
                     <ul>
                         <li>
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </li>
+                        </li><br><br>
                         <li>
                             <a href="#"><i class="fab fa-twitter"></i></a>
-                        </li>
+                        </li><br><br>
                         <li>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                        </li>
+                        </li><br><br>
                         <li>
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                         </li>

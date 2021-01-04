@@ -16,20 +16,9 @@
                                 <ul class="navbar-nav ml-auto">
                                     <li class="">
                                         <a class="nav-link dropdown-toggle" href="{{url('/')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Home</a>
-                                        {{-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            {{-- <a class="dropdown-item" href="index.html">Home Page One</a>
-                                            <a class="dropdown-item" href="index-2.html">Home Page Two</a>
-                                            <a class="dropdown-item" href="index-3.html">Home Page Three</a> --}}
-                                        {{-- </div>  --}}
                                     </li>
                                     <li class="">
-                                        <a class="nav-link dropdown-toggle" href="{{url('department/index')}}"  role="button"  aria-haspopup="true" aria-expanded="false"> Department</a>
-                                        {{-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="{{url('department/index')}}">Dental Care</a>
-                                            <a class="dropdown-item" href="services-2.html">Cardiology</a>
-                                            <a class="dropdown-item" href="services-3.html">Neurology </a>
-                                            <a class="dropdown-item" href="services-detail.html">Eye Care</a>
-                                        </div> --}}
+                                        <a class="nav-link dropdown-toggle" href="{{url('department/index')}}"  role="button"  aria-haspopup="true" aria-expanded="false">Our Services</a>
                                     </li>
 
                                     <li class="nav-item dropdown">
@@ -48,56 +37,10 @@
                                             <li class="nav-item">
                                                 <a class="dropdown-item" href="{{url('muhammad-anas/')}}">Dr. Muhammad Anas</a>
                                             </li>
-                                            {{-- <li>
-                                                <a
-                                                 href="{{url('patients_services/index')}}">Services <i
-                                                        class="fas fa-plus"></i></a>
-                                                {{-- <ul class="dropdown-menu dropdown-menu1">
-                                                    <li><a class="dropdown-item" href="services.html">Services
-                                                            One</a></li>
-                                                    <li><a class="dropdown-item" href="services-2.html">Services
-                                                            Two</a></li>
-                                                    <li><a class="dropdown-item" href="services-3.html">Services
-                                                            Three</a></li>
-                                                    <li><a class="dropdown-item" href="services-detail.html">Service
-                                                            Detail</a></li>
-                                                </ul> --}}
-                                            {{-- </li>  --}}
-                                            {{-- <li class="nav-item">
-                                                <a class="dropdown-item" href="{{url('patients_appointment/index')}}">Appointment<i class="fas fa-plus"></i></a>
-                                            </li>
 
-                                            <li class="nav-item">
-                                                <a class="dropdown-item" href="{{url('patients_our_doctor/index')}}">Our Doctors <i class="fas fa-plus"></i></a>
-                                            </li> --}}
-                                            {{-- <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Our Doctors
-                                                    <i class="fas fa-plus"></i></a>
-                                                <ul class="dropdown-menu dropdown-menu1">
-                                                    <li><a class="dropdown-item" href="doctors.html">Doctors One</a>
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="doctors-2.html">Doctors
-                                                            Two</a></li>
-                                                    <li><a class="dropdown-item" href="doctors-3.html">Doctors
-                                                            Three</a></li>
-                                                </ul>
-                                            </li> --}}
-                                            {{-- <li class="nav-item">
-                                                <a class="dropdown-item" href="{{url('patients_pricing/index')}}">Pricing <i class="fas fa-plus"></i></a>
-                                            </li> --}}
                                         </ul>
                                     </li>
 
-                                    {{-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Blog <i class="fas fa-plus"></i> </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="blog-standard.html">Blog Stadared</a>
-                                            <a class="dropdown-item" href="blog-list.html">Blog List</a>
-                                            <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                                            <a class="dropdown-item" href="blog-grid-2.html">Blog Grid-2</a>
-                                            <a class="dropdown-item" href="blog-details.html">Blog Details</a>
-                                        </div>
-                                    </li> --}}
                                     <li class="">
                                         <a class="nav-link dropdown-toggle" href="{{url('machinery/')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Machinery </a>
                                     </li>
@@ -110,28 +53,6 @@
                                         <a class="nav-link dropdown-toggle" href="{{url('contact/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Contact Us</a>
                                     </li>
 
-                                    {{-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> pages <i class="fas fa-plus"></i> </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="about.html">About</a>
-                                            <a class="dropdown-item" href="contact-us.html">Contact One</a>
-                                            <a class="dropdown-item" href="contact-us-2.html">Contact Two</a>
-                                            <a class="dropdown-item" href="error.html">Error 404</a>
-                                        </div>
-                                    </li> --}}
-                                    {{-- <li>
-                                        <ul class="cart-seperate">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#"><i
-                                                        class="fas fa-search fa-top-search"></i></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#"><i
-                                                        class="fas fa-shopping-cart fa-top-search"></i>
-                                                    <span>2</span></a>
-                                            </li>
-                                        </ul>
-                                    </li> --}}
                                     <li class="nav-item">
                                         <a class="nav-link btn btn-outline-primary appointment-btn-top" href="tel:053-3724611">Appointment</a>
                                     </li>
@@ -158,7 +79,6 @@
                                     Our goal is & has always been to provide the best healthcare possible to all of our patients.
                                 </p>
                                 <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
-                                {{-- <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="play-btn popup-youtube"><i class="fas fa-play"></i></a> --}}
                             </div>
 
                         </div>

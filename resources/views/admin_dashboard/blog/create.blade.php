@@ -47,9 +47,12 @@ create Blog
                     </div>
 
                     <div class="form-row mb-4">
-                        <p><b>Describe</b></p>
+                        <p><b>Description</b></p>
                         <textarea aria-required="true" rows="3" cols="45" name="description" minlength="150" id="description"
-                            value="description" class="form-control" placeholder="Description"></textarea>
+                            value="{{old("description")}}" class="form-control @error('description') is-invalid @enderror"" placeholder="Description"></textarea>
+                            @error('descrition')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
 
 

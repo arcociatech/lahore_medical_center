@@ -53,7 +53,10 @@ Blog View
                     <div class="form-row mb-4">
                         <p><b>Describe</b></p>
                         <textarea aria-required="true" rows="3" cols="45" name="description" id="description" minlength="150"
-                            value="description" class="form-control" placeholder="Description"></textarea>
+                            value="{{$blog->description}}" class="form-control @error('description') is-invalid @enderror"" placeholder="Description"></textarea>
+                            @error('description')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
 
                     <button type="submit" class="btn btn-primary mt-3">Submit</button>

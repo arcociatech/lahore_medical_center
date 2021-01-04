@@ -5,7 +5,7 @@
         <div class="profile-info">
             <figure class="user-cover-image"></figure>
             <div class="user-info">
-                <img src="{{asset('assets/img/profile-17.jpg')}}" alt="avatar">
+                <img src="{{asset('images/team2.jpg')}}" alt="avatar">
                 {{-- <h6 class="">Susan Phillips</h6> --}}
                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                     {{-- <h6>{{ Auth::user()->name }}</h6> --}}
