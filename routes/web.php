@@ -27,6 +27,8 @@ Route::get('contact/index', 'MedicalController@contact');
 Route::get('shahida-husain-tarar/', 'MedicalController@doctor1');
 Route::get('muhammad-afzal-ch/', 'MedicalController@doctor2');
 Route::get('muhammad-anas/', 'MedicalController@doctor3');
+Route::get('fouzia/', 'MedicalController@doctor4');
+Route::get('anam-shareef/', 'MedicalController@doctor5');
 Route::get('machinery/', 'MedicalController@machinery');
 
 

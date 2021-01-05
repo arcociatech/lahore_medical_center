@@ -31,7 +31,7 @@
                                             </div>
                                         </li>
                                         <li class="appointment-btn">
-                                            <a href="tel:053-3724611" class="btn btn-primary">Make Appointment</a>
+                                            <a href="tel:053-3724611" class="btn btn-primary">Call us Now  <i class="fas fa-phone"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -76,6 +76,14 @@
 
                                             <li class="nav-item">
                                                 <a class="dropdown-item" href="{{url('muhammad-anas/')}}">Dr. Muhammad Anas</a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="dropdown-item" href="{{url('fouzia/')}}">Dr. Fouzia</a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="dropdown-item" href="{{url('anam-shareef/')}}">Dr.  Anam Shareef </a>
                                             </li>
                                         </ul>
                                     </li>

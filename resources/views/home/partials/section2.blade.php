@@ -15,7 +15,7 @@
                         <img src="{{asset('images/service-icon1.png')}}" alt="#">
                         <h3>Gynaecology</h3>
                         <p class="text-justify">
-                             Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies.
+                             Gynaecology provides our patients with assorted selections for personal obstetric and gynaecologic care while offering a simple-access method of complete healthcare for ladies.
                         </p>
                         <a href="{{url('shahida-husain-tarar/')}}" class="btn btn-dark">READ MORE</a>
                         <div class="service-bg-icon">

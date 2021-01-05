@@ -50,7 +50,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-md-12">
-                        <a href="tel:053-3724611" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
+                        <a href="tel:053-3724611" class="btn btn-dark" tabindex="0">Call us Now  <i class="fas fa-phone"></i></a>
                     </div>
                 </div>
             </div>

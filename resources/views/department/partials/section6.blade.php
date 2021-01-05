@@ -49,6 +49,34 @@
                         </p>
                         <span>Dr. Muhammad Anas</span>
                     </div>
+
+                    <div class="testimonial-style2">
+                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                        <p>The Department of Obstetrics and Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
+                        </p>
+                        <span>Dr. Fouzia</span>
+                    </div>
+
+                    <div class="testimonial-style2">
+                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                        <p>The Department of Obstetrics and Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
+                        </p>
+                        <span>Dr. Anam Shareef</span>
+                    </div>
                 </div>
                 <hr>
                 {{-- <div class="testi-slider-style2-nav">
