@@ -5,7 +5,7 @@
                 <div class="news-img-block">
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team1.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/3.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -31,10 +31,11 @@
                     {{-- <span>Who we are -----</span> --}}
                     <h2>Dr. Fouzia</h2>
 
-                    <p>
-                         Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
+                    <p class="text-justify">
+                        Gynaecology provides our patients with different alternatives for private medicine and medical specialty care whereas providing a simple-access methodology of complete attention for girls. Our gynaecologists perform numerous varieties of procedures to contend with each common and rare medical specialty conditions, addressing different specialists to produce the simplest to require care of patients. they provide non-invasive treatment whenever you'll to minimize patient discomfort and promote quicker healing. They’ve in depth expertise of epithelial duct and laparoscopic approaches, additionally to reconstruction surgery, the restoration of standard anatomy and performance.
                     </p>
-                    <p class="text-justify">They deal with a wide range of issues, including obstetrics, or pregnancy and childbirth, menstruation and fertility issues, sexually transmitted infections (STIs), hormone disorders, and others.
+                    <p class="text-justify">
+                        They contend with a good vary of problems, as well as OB, or maternity and birthing, discharge and fertility problems, sexually transmitted infections (STIs), secretion disorders, and others.
                     </p>
                     <h6>Qualification of Dr. Fouzia</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S. </p>

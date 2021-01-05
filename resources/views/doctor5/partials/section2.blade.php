@@ -5,7 +5,7 @@
                 <div class="news-img-block">
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team1.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/1.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -31,10 +31,11 @@
                     {{-- <span>Who we are -----</span> --}}
                     <h2>Dr. Anam Shareef</h2>
 
-                    <p>
-                         Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
+                    <p class="text-justify">
+                        Gynaecology provides our patients with various choices for private obstetrical and gynecological care whereas giving a simple-access methodology of complete aid for women. Our gynaecologists perform varied sorts of procedures to take care of each common and rare gynecological conditions, managing different specialists to provide the most effective to require care of patients. they provide non-invasive treatment whenever you'll to reduce patient discomfort and promote quicker healing. They’ve intensive expertise of channel and laparoscopic approaches, additionally to reconstruction surgery, the restoration of normal anatomy and performance.
                     </p>
-                    <p class="text-justify">They deal with a wide range of issues, including obstetrics, or pregnancy and childbirth, menstruation and fertility issues, sexually transmitted infections (STIs), hormone disorders, and others.
+                    <p class="text-justify">
+                        They take care of a good vary of problems, together with medical specialty, or gestation and vaginal birth, menses and fertility problems, sexually transmitted infections (STIs), secretion disorders, and others.
                     </p>
                     <h6>Qualification of Dr. Anam Shareef</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S.</p>

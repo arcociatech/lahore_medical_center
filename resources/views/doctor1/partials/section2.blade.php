@@ -5,7 +5,7 @@
                 <div class="news-img-block">
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team1.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/2.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -31,10 +31,11 @@
                     {{-- <span>Who we are -----</span> --}}
                     <h2>Dr. Shahida Husain Tarar</h2>
 
-                    <p>
+                    <p class="text-justify">
                          Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
                     </p>
-                    <p class="text-justify">They deal with a wide range of issues, including obstetrics, or pregnancy and childbirth, menstruation and fertility issues, sexually transmitted infections (STIs), hormone disorders, and others.
+                    <p class="text-justify">
+                        They deal with a wide range of issues, including obstetrics, or pregnancy and childbirth, menstruation and fertility issues, sexually transmitted infections (STIs), hormone disorders, and others.
                     </p>
                     <h6>Qualification of Dr. Shahida Husain Tarar</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S., F.C.P.S. Dip MIS(Germany)</p>

@@ -81,7 +81,7 @@
                             <div class="main-title">
                                 <span>We are here for you</span>
                                 <h1>
-                                    What Makes Us Better, Makes You Better.
+                                    What Makes You Better, Makes Us Better.
                                 </h1>
                                 <p>
                                     Our goal is & has always been to provide the best healthcare possible to all of our patients.
@@ -127,7 +127,7 @@
                             <div class="main-title">
                                 <span>We are here for you</span>
                                 <h1>
-                                    What Makes Us Better, Makes You Better.
+                                    What Makes You Better, Makes Us Better.
                                 </h1>
                                 <p>
                                     We pride ourselves on offering a modern and technologically advanced medical facility with world leading equipment to provide you with the best healthcare possible.
@@ -174,7 +174,7 @@
                             <div class="main-title">
                                 <span>We are here for you</span>
                                 <h1>
-                                    What Makes Us Better, Makes You Better.
+                                    What Makes You Better, Makes Us Better.
                                 </h1>
                                 <p>
                                     Our physical infrastructure has been custom-built based on the best practices of top medical facilities around the world.

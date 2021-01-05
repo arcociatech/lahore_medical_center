@@ -5,7 +5,7 @@
                 <div class="news-img-block">
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team2.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/team2.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -30,9 +30,11 @@
                 <div class="video-play-text">
                     {{-- <span>Who we are -----</span> --}}
                     <h2>Dr. Muhammad Afzal Ch.</h2>
-                    <p class="text-justify"> Our doctor Gastroenterologists and Hematologists at Lahore Medical Center specialize in diagnosing and treating digestive tract and liver disorders. These mainly include conditions involving the pancreas, liver, gallbladder, esophagus, stomach, small intestine and colon.
+                    <p class="text-justify">
+                         Our doctor Gastroenterologists and Hematologists at Lahore Medical Center specialize in diagnosing and treating digestive tract and liver disorders. These mainly include conditions involving the pancreas, liver, gallbladder, esophagus, stomach, small intestine and colon.
                     </p>
-                    <p class="text-justify">They perform endoscopic procedures, in which they use specialized instruments to view the GI tract and make a diagnosis. They don’t perform surgery. In some cases, they may work closely with a GI surgeon. They primarily work in clinic or hospital settings. The GI system: digests and moves food, absorbs nutrients, removes waste from your body. Gastroenterologists can treat any part of this system.
+                    <p class="text-justify">
+                        They perform endoscopic procedures, in which they use specialized instruments to view the GI tract and make a diagnosis. They don’t perform surgery. In some cases, they may work closely with a GI surgeon. They primarily work in clinic or hospital settings. The GI system: digests and moves food, absorbs nutrients, removes waste from your body. Gastroenterologists can treat any part of this system.
                     </p>
                     <h6>Qualification of Dr. Muhammad Afzal Ch.</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S., M.D.(USA), F.C.P.S.(Medicine)</p>

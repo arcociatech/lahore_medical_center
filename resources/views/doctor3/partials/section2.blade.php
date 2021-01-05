@@ -5,7 +5,7 @@
                 <div class="news-img-block">
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team2.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/4.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -30,9 +30,11 @@
                 <div class="video-play-text">
                     {{-- <span>Who we are -----</span> --}}
                     <h2>Dr. Muhammad Anas</h2>
-                    <p class="text-justify">  The pediatric department at Lahore Medical Center provides outpatient care to all children from newborn to adolescence. The Lahore Medical Center services are run by consultants with a vast experience in their field.
+                    <p class="text-justify">
+                        The pediatric department at Lahore Medical Center provides outpatient care to all children from newborn to adolescence. The Lahore Medical Center services are run by consultants with a vast experience in their field.
                     </p>
-                    <p class="text-justify"> Full attention is given to their medical needs and parent’s concerns. Proper investigations, if needed are done and appropriate advice and medication are given accordingly.
+                    <p class="text-justify">
+                        Full attention is given to their medical needs and parent’s concerns. Proper investigations, if needed are done and appropriate advice and medication are given accordingly.
                     </p>
                     <p class="text-justify">
                         These services are provided in the Lahore Medical Center.

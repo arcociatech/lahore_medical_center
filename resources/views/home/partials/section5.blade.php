@@ -13,7 +13,7 @@
                 <div class="doctors-slider">
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team2.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/4.jpg')}}" class="img-fluid" alt="#" height="300px" width="300px"/>
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team1.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/2.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -55,7 +55,7 @@
                     </div>
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team2.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/team2.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -76,7 +76,7 @@
                     </div>
                     <div class="team-img_block blue">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team3.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/1.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -93,11 +93,11 @@
                             </ul>
                         </div>
                         <h4>Dr. Fouzia</h4>
-                        <p>Cardiologist Specialist</p>
+                        <p>Gynaecologist Specialist</p>
                     </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('images/team1.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/3.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
