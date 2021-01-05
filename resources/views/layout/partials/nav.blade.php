@@ -86,7 +86,10 @@
                                 <p>
                                     Our goal is & has always been to provide the best healthcare possible to all of our patients.
                                 </p>
+<<<<<<< HEAD
                                 <a href="tel:053-3724611" class="btn btn-primary">Call us Now  <i class="fas fa-phone"></i></a>
+=======
+>>>>>>> 9528998e8d507ec892fdf0cefeaad96f68795bc6
                             </div>
 
                         </div>
