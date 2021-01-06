@@ -4,7 +4,7 @@
             <div class="col-md-12">
                 <div class="testi-slider-style2">
                     <div class="testimonial-style2">
-                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <img src="{{asset('assets/images/doctor/2.jpg')}}" alt="#" height="300px" width="300px" >
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -17,7 +17,7 @@
                         <span>Dr. Shahida Husain Tarar</span>
                     </div>
                     <div class="testimonial-style2">
-                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <img src="{{asset('assets/images/doctor/team2.jpg')}}" alt="#" height="300px" width="300px">
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="testimonial-style2">
-                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <img src="{{asset('assets/images/doctor/4.jpg')}}" alt="#" height="300px" width="300px">
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="testimonial-style2">
-                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <img src="{{asset('assets/images/doctor/1.jpg')}}" alt="#" height="300px" width="300px">
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -59,13 +59,13 @@
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                         </ul>
-                        <p>The Department of Obstetrics and Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
+                        <p> Gynaecology provides our patients with different alternatives for private medicine and medical specialty care whereas providing a simple-access methodology of complete attention for girls. Our gynaecologists perform numerous varieties of procedures to contend with each common and rare medical specialty conditions, addressing different specialists to produce the simplest to require care of patients. they provide non-invasive treatment whenever you'll to minimize patient discomfort and promote quicker healing. They’ve in depth expertise of epithelial duct and laparoscopic approaches, additionally to reconstruction surgery, the restoration of standard anatomy and performance.
                         </p>
                         <span>Dr. Fouzia</span>
                     </div>
 
                     <div class="testimonial-style2">
-                        <img src="{{asset('images/doctors-img1.jpg')}}" alt="#">
+                        <img src="{{asset('assets/images/doctor/3.jpg')}}" alt="#" height="300px" width="300px">
                         <ul>
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
@@ -73,7 +73,7 @@
                             <li><i class="fas fa-star"></i></li>
                             <li><i class="fas fa-star"></i></li>
                         </ul>
-                        <p>The Department of Obstetrics and Gynaecology provides our patients with assorted selections for personal obstetric and gynecologic care while offering a simple-access method of complete healthcare for ladies. Our gynaecologists perform various kinds of procedures to deal with both common and rare gynecologic conditions, dealing with other specialists to supply the best to take care of patients. They offer non-invasive treatment whenever you can to lessen patient discomfort and promote faster healing. They’ve extensive experience of vaginal and laparoscopic approaches, in addition to rebuilding surgery, the restoration of ordinary anatomy and performance.
+                        <p> Gynaecology provides our patients with various choices for private obstetrical and gynecological care whereas giving a simple-access methodology of complete aid for women. Our gynaecologists perform varied sorts of procedures to take care of each common and rare gynecological conditions, managing different specialists to provide the most effective to require care of patients. they provide non-invasive treatment whenever you'll to reduce patient discomfort and promote quicker healing. They’ve intensive expertise of channel and laparoscopic approaches, additionally to reconstruction surgery, the restoration of normal anatomy and performance.
                         </p>
                         <span>Dr. Anam Shareef</span>
                     </div>
