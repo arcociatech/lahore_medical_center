@@ -35,9 +35,11 @@
                         <li>
                             <a href="{{url('machinery/index')}}"><i class="fas fa-angle-double-right"></i>Machinery</a>
                         </li>
+                        @if (App\Models\Blog::get()->count())
                         <li>
                             <a href="{{url('blog/index')}}"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
                         </li>
+                        @endif
                         <li>
                             <a href="{{url('contact/index')}}"><i class="fas fa-angle-double-right"></i>Contact Us</a>
                         </li>

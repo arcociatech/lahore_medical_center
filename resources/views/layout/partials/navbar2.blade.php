@@ -92,9 +92,11 @@
                                         <a class="nav-link dropdown-toggle" href="{{url('machinery/')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Machinery</a>
                                     </li>
 
+                                    @if (App\Models\Blog::get()->count())
                                     <li class="">
                                         <a class="nav-link dropdown-toggle" href="{{url('blogs/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Blog</a>
                                     </li>
+                                    @endif
 
                                     <li class="">
                                         <a class="nav-link dropdown-toggle" href="{{url('contact/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Contact Us</a>
