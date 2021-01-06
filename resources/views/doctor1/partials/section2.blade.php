@@ -44,13 +44,14 @@
                     <p><i class="fas fa-award"></i> Associate Professor Obs. & Gyn. N.S.M.C UOG</p>
 
                     <hr />
-                    {{-- <div class="newsletter-subscribe">
-                        <h4>Subscribe to our Newsletter</h4>
-                        <div class="newsletter-subscribe_form">
-                            <input type="text" class="form-control" placeholder="Enter Your Email" />
-                            <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    <div class="contact-title">
+                        <i class="fa fa-calendar-alt"></i>
+                        <div class="contact-title_icon">
+                            <p>On Monday to Friday</p>
+                            <h6>2 PM to 6 PM</h6>
                         </div>
-                    </div> --}}
+                    </div>
+
                 </div>
             </div>
         </div>

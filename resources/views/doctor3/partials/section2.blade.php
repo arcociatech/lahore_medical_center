@@ -50,6 +50,13 @@
                     <p><i class="fas fa-award"></i> Child Specialist</p>
                     <p><i class="fas fa-award"></i> Senior Consultant Children Hospital Lahore</p>
                     <hr />
+                    <div class="contact-title">
+                        <i class="fa fa-calendar-alt"></i>
+                        <div class="contact-title_icon">
+                            <p>On Monday to Saturday</p>
+                            <h6>2 PM to 6 PM</h6>
+                        </div>
+                    </div>
                     {{-- <div class="newsletter-subscribe">
                         <h4>Subscribe to our Newsletter</h4>
                         <div class="newsletter-subscribe_form">

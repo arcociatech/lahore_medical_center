@@ -20,22 +20,22 @@
                             <i class="fa fa-calendar-alt"></i>
                             <div class="contact-title_icon">
                                 <p>On Monday</p>
-                                <h6>12:00 AM to 11:59 PM</h6>
+                                <h6>24 Hours</h6>
 
                                 <p>On Tuesday</p>
-                                <h6>12:00 AM to 11:59 PM</h6>
+                                <h6>24 Hours</h6>
 
                                 <p>On Wednesday</p>
-                                <h6>12:00 AM to 11:59 PM</h6>
+                                <h6>24 Hours</h6>
 
                                 <p>On Thursday</p>
-                                <h6>12:00 AM to 11:59 PM</h6>
+                                <h6>24 Hours</h6>
 
                                 <p>On Friday</p>
-                                <h6>12:00 AM to 11:59 PM</h6>
+                                <h6>24 Hours</h6>
 
                                 <p>On Saturday</p>
-                                <h6>12:00 AM to 11:59 PM</h6>
+                                <h6>24 Hours</h6>
                             </div>
                         </div>
                         <hr>
@@ -61,8 +61,8 @@
                         <i class="fas fa-phone-volume"></i>
                         <div class="contact-title_icon">
                             <p>Phone</p>
-                            <a href="tel:053-3724611"><h4>053-3724611</h4></a>
-                            <a href="tel:053-9260459"><h4>053-9260459</h4></a>
+                            <a href="tel:0533724611"><h4>053-3724611</h4></a>
+                            <a href="tel:0539260459"><h4>053-9260459</h4></a>
                             {{-- <h6>+123 456 7890</h6> --}}
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="contact-title_icon">
                             <p>Location</p>
-                            <h6>Opp. Servis Coloney <br> G.T. Road, <br> Gujrat</h6>
+                            <h6>Opp. Servis Colony <br> G.T. Road, Gujrat</h6>
                         </div>
                     </div>
                 </div>
