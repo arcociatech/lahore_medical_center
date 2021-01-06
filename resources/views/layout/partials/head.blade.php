@@ -10,3 +10,4 @@
 <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}" />
 
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
+
