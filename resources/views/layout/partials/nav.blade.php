@@ -18,7 +18,7 @@
                                         <a class="nav-link dropdown-toggle" href="{{url('/')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Home</a>
                                     </li>
                                     <li class="">
-                                        <a class="nav-link dropdown-toggle" href="{{url('department/index')}}"  role="button"  aria-haspopup="true" aria-expanded="false">Our Services</a>
+                                        <a class="nav-link dropdown-toggle" href="{{url('department')}}"  role="button"  aria-haspopup="true" aria-expanded="false">Our Services</a>
                                     </li>
 
                                     <li class="nav-item dropdown">
@@ -55,12 +55,12 @@
 
                                     @if(App\Models\Blog::get()->count())
                                     <li class="">
-                                        <a class="nav-link dropdown-toggle" href="{{url('blogs/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Blog </a>
+                                        <a class="nav-link dropdown-toggle" href="{{url('blogs')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Blog </a>
                                     </li>
                                     @endif
 
                                     <li class="">
-                                        <a class="nav-link dropdown-toggle" href="{{url('contact/index')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Contact Us</a>
+                                        <a class="nav-link dropdown-toggle" href="{{url('contact')}}"   role="button"   aria-haspopup="true" aria-expanded="false"> Contact Us</a>
                                     </li>
 
                                     <li class="nav-item">

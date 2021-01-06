@@ -51,7 +51,7 @@
             <div class="col-md-12">
                 <p class="text-center service-help_link">
                     Contact us for better help and services.
-                    <a href="{{url('contact/index')}}">Let’s get started</a>
+                    <a href="{{url('contact')}}">Let’s get started</a>
                 </p>
             </div>
         </div>

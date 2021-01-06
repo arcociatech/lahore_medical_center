@@ -127,7 +127,7 @@ class BlogController extends Controller
         $blog->description = $request->input('description');
         $blog->save();
         toast()->success('Blog updated successfully')->timerProgressBar();
-        return redirect(url('blog/index'));
+        return redirect(url('blog'));
     }
 
     /**

@@ -36,7 +36,7 @@
          $("#notice_board_table").DataTable({
             processing: true,
             serverSide: true,
-            url: '{{url("/notice_board/index")}}',
+            url: '{{url("/notice_board")}}',
             pageLenght: 5, //default
             lenghtMenu: [
                 [5, 10, 50, 100, 300, 500, 1000, -1],

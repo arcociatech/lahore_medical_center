@@ -53,7 +53,7 @@
                         <a href="{{url('blog/create')}}"> Blog Create </a>
                     </li>
                     <li>
-                        <a href="{{url('blog/index')}}"> Blog View </a>
+                        <a href="{{url('blog')}}"> Blog View </a>
                     </li>
 
                 </ul>
@@ -75,7 +75,7 @@
                         <a href="{{url('notice_board/create')}}"> Notice Create </a>
                     </li>
                     <li>
-                        <a href="{{url('notice_board/index')}}"> Notice View </a>
+                        <a href="{{url('notice_board')}}"> Notice View </a>
                     </li>
 
                 </ul>

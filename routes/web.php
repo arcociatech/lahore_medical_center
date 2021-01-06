@@ -16,20 +16,20 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', 'MedicalController@home');
-Route::get('department/index', 'MedicalController@department');
-Route::get('patients_services/index', 'MedicalController@patients_services');
-Route::get('patients_appointment/index', 'MedicalController@patients_appointment');
-Route::get('patients_our_doctor/index', 'MedicalController@patients_our_doctor');
-Route::get('patients_pricing/index', 'MedicalController@patients_pricing');
-Route::get('blogs/index', 'MedicalController@blog');
+Route::get('department', 'MedicalController@department');
+Route::get('patients_services', 'MedicalController@patients_services');
+Route::get('patients_appointment', 'MedicalController@patients_appointment');
+Route::get('patients_our_doctor', 'MedicalController@patients_our_doctor');
+Route::get('patients_pricing', 'MedicalController@patients_pricing');
+Route::get('blogs', 'MedicalController@blog');
 Route::get('blog-detail/{id}', 'MedicalController@blog_detail');
-Route::get('contact/index', 'MedicalController@contact');
-Route::get('shahida-husain-tarar/', 'MedicalController@doctor1');
-Route::get('muhammad-afzal-ch/', 'MedicalController@doctor2');
-Route::get('muhammad-anas/', 'MedicalController@doctor3');
-Route::get('fouzia/', 'MedicalController@doctor4');
-Route::get('anam-shareef/', 'MedicalController@doctor5');
-Route::get('machinery/', 'MedicalController@machinery');
+Route::get('contact', 'MedicalController@contact');
+Route::get('shahida-husain-tarar', 'MedicalController@doctor1');
+Route::get('muhammad-afzal-ch', 'MedicalController@doctor2');
+Route::get('muhammad-anas', 'MedicalController@doctor3');
+Route::get('fouzia', 'MedicalController@doctor4');
+Route::get('anam-shareef', 'MedicalController@doctor5');
+Route::get('machinery', 'MedicalController@machinery');
 
 
 //Contact Route
@@ -63,7 +63,7 @@ Route::group(['middleware' => 'auth'], function () {
 */
 Route::group(['prefix' => 'blog'], function () {
     Route::get('/create','BlogController@create');
-    Route::get('/index','BlogController@index');
+    Route::get('/','BlogController@index');
     Route::post('/','BlogController@store');
     Route::get('/edit/{id}','BlogController@edit');
     Route::put('/edit/{id}','BlogController@update');//update
@@ -78,7 +78,7 @@ Route::group(['prefix' => 'blog'], function () {
 */
 Route::group(['prefix' => 'notice_board'], function () {
     Route::get('/create','NoticeBoardController@create');
-    Route::get('/index','NoticeBoardController@index');
+    Route::get('/','NoticeBoardController@index');
     Route::post('/','NoticeBoardController@store');
     Route::get('/edit/{id}','NoticeBoardController@edit');
     Route::put('/edit/{id}','NoticeBoardController@update');//update

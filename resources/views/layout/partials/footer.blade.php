@@ -30,18 +30,18 @@
                             <a href="{{url('/')}}"><i class="fas fa-angle-double-right"></i>Home</a>
                         </li>
                         <li>
-                            <a href="{{url('department/index')}}"><i class="fas fa-angle-double-right"></i>Departments</a>
+                            <a href="{{url('department')}}"><i class="fas fa-angle-double-right"></i>Departments</a>
                         </li>
                         <li>
-                            <a href="{{url('machinery/index')}}"><i class="fas fa-angle-double-right"></i>Machinery</a>
+                            <a href="{{url('machinery')}}"><i class="fas fa-angle-double-right"></i>Machinery</a>
                         </li>
                         @if (App\Models\Blog::get()->count())
                         <li>
-                            <a href="{{url('blog/index')}}"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
+                            <a href="{{url('blog')}}"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
                         </li>
                         @endif
                         <li>
-                            <a href="{{url('contact/index')}}"><i class="fas fa-angle-double-right"></i>Contact Us</a>
+                            <a href="{{url('contact')}}"><i class="fas fa-angle-double-right"></i>Contact Us</a>
                         </li>
 
                     </ul>

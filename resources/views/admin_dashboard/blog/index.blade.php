@@ -38,7 +38,7 @@
          $("#blog_table").DataTable({
             processing: true,
             serverSide: true,
-            url: '{{url("/blog/index")}}',
+            url: '{{url("/blog")}}',
             pageLenght: 5, //default
             lenghtMenu: [
                 [5, 10, 50, 100, 300, 500, 1000, -1],

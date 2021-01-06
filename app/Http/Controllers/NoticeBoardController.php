@@ -106,7 +106,7 @@ class NoticeBoardController extends Controller
         $notice_board->notice_board = $request->input('notice_board');
         $notice_board->save();
         toast()->success('Notice updated successfully')->timerProgressBar();
-        return redirect(url('notice_board/index'));
+        return redirect(url('notice_board'));
     }
 
     /**
