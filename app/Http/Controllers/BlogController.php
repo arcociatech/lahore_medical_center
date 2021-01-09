@@ -23,6 +23,7 @@ class BlogController extends Controller
                 ->editcolumn('header', function ($row) {
                     return $row->header;
                 })
+                
                 ->editcolumn('image', function ($row) {
                     return '<img class="img-thumbnail" width="80px" hieght="80px" src="'.asset('images/'.$row->image).'">';
                 })

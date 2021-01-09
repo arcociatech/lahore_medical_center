@@ -47,9 +47,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/admin_dashboard','AdminPanelController@admin_dashboard');
 
-    // Route::get('/home','AdminPanelController@admin_dashboard');
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+     
 });
 
 
