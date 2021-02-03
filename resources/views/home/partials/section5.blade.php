@@ -116,6 +116,27 @@
                         <h4>Dr. Aman Shareef</h4>
                         <p>Gynaecologist Specialist</p>
                     </div>
+                    <div class="team-img_block yellow">
+                        <div class="team-img-socila-block">
+                            <img src="{{asset('assets/images/doctor/2.jpg')}}" class="img-fluid" alt="#" />
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>Dr. Mahnoor Shehzadi</h4>
+                        <p>Physiotherapist Specialist</p>
+                    </div>
                     {{-- <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
                             <img src="{{asset('images/team4.jpg')}}" class="img-fluid" alt="#" />

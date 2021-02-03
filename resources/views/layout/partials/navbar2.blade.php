@@ -85,6 +85,10 @@
                                             <li class="nav-item">
                                                 <a class="dropdown-item" href="{{url('anam-shareef/')}}">Dr.  Anam Shareef </a>
                                             </li>
+
+                                            <li class="nav-item">
+                                                <a class="dropdown-item" href="{{url('mahnoor-shehzadi/')}}">Dr. Mahnoor Shehzadi </a>
+                                            </li>
                                         </ul>
                                     </li>
 

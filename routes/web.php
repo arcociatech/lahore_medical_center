@@ -29,6 +29,7 @@ Route::get('muhammad-afzal-ch', 'MedicalController@doctor2');
 Route::get('muhammad-anas', 'MedicalController@doctor3');
 Route::get('fouzia', 'MedicalController@doctor4');
 Route::get('anam-shareef', 'MedicalController@doctor5');
+Route::get('mahnoor-shehzadi', 'MedicalController@doctor6');
 Route::get('machinery', 'MedicalController@machinery');
 
 
@@ -47,7 +48,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/admin_dashboard','AdminPanelController@admin_dashboard');
 
-     
+
 });
 
 

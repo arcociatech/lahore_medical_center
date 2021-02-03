@@ -44,6 +44,17 @@
                             <img src="{{asset('images/services-bg3.png')}}" class="img-fluid" alt="#">
                         </div>
                     </div>
+                    <div class="service-block green">
+                        <img src="{{asset('images/service-icon2.png')}}" alt="#" />
+                        <h3>Physiotherapy</h3>
+                        <p class="text-justify">
+                            Physiotherapist providing services at Lahore medical centre Gujrat.She is specialist in diagnosing and treating various disorders.These mainly include paralytic care.
+                        </p>
+                        <a href="{{url('mahnoor-shehzadi/')}}" class="btn btn-dark">READ MORE</a>
+                        <div class="service-bg-icon">
+                            <img src="{{asset('images/services-bg2.png')}}" class="img-fluid" alt="#">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

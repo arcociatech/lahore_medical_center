@@ -77,6 +77,20 @@
                         </p>
                         <span>Dr. Anam Shareef</span>
                     </div>
+                    <div class="testimonial-style2">
+                        <img src="{{asset('assets/images/doctor/2.jpg')}}" alt="#" height="300px" width="300px" >
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                        <p> Mahnoor Shehzadi is a Physiotherapist  providing services at Lahore medical centre Gujrat.She is specialist in diagnosing and treating various musculoskeletal disorders.
+                        These mainly include paralytic care, frozen shoulder,Bells palsy,sciatica,ankle sprain,Arthiritis,joints pain,muscular spasm,spine problems,Gynecological and pediatric physiotherapy. She has 2 years of experience in this field.
+                        </p>
+                        <span>Dr. Mahnoor Shahzadi</span>
+                    </div>
                 </div>
                 <hr>
                 {{-- <div class="testi-slider-style2-nav">
