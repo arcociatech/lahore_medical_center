@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="service-block yellow">
                     <img src="{{asset('images/service-icon1.png')}}" alt="#">
                     <h3>Gynaecology</h3>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="service-block green">
                     <img src="{{asset('images/service-icon2.png')}}" alt="#">
                     <h3>Gastroenterology</h3>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="service-block blue">
                     <img src="{{asset('images/service-icon3.png')}}" alt="#">
                     <h3>Child Care</h3>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="service-block green">
                     <img src="{{asset('images/service-icon2.png')}}" alt="#" />
                     <h3>Physiotherapy</h3>
