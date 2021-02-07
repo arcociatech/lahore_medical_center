@@ -31,10 +31,10 @@
                     {{-- <span>Who we are -----</span> --}}
                     <h2>Dr. Muhammad Afzal Ch.</h2>
                     <p class="text-justify">
-                         Our doctor Gastroenterologists and Hematologists at Lahore Medical Center specialize in diagnosing and treating digestive tract and liver disorders. These mainly include conditions involving the pancreas, liver, gallbladder, esophagus, stomach, small intestine and colon.
+                         Our doctor Gastroenterologists at Lahore Medical Center specialize in diagnosing and treating digestive tract and liver disorders. These mainly include conditions involving the pancreas, liver, gallbladder, esophagus, stomach, small intestine and colon.
                     </p>
                     <p class="text-justify">
-                        They perform endoscopic procedures, in which they use specialized instruments to view the GI tract and make a diagnosis. They don’t perform surgery. In some cases, they may work closely with a GI surgeon. They primarily work in clinic or hospital settings. The GI system: digests and moves food, absorbs nutrients, removes waste from your body. Gastroenterologists can treat any part of this system.
+                        They perform endoscopic procedures, in which they use specialized instruments to view the GI tract and make a diagnosis. They don’t perform surgery. In some cases, they may work closely with a GI surgeon. They primarily work in clinic or hospital settings. The GI system: digests and moves food, absorbs nutrients, removes waste from your body. Gastroenterologists can treat any part of this system. Internal Medicine Specialist, Diabetologist & Gastroenterologist with Endoscopic services.
                     </p>
                     <h6>Qualification of Dr. Muhammad Afzal Ch.</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S., M.D.(USA), F.C.P.S.(Medicine)</p>
@@ -47,12 +47,13 @@
                     <p><i class="fas fa-award"></i> Ex-Councillor PSG Punjab Chapter 2015-17</p>
                     <p><i class="fas fa-award"></i> Ex-Senior Vice President PMA Gujrat. 2015-18</p>
                     <p><i class="fas fa-award"></i> Ex. Consultant Physician Jinnah Hospital, Lahore</p>
+                    <p><i class="fas fa-award"></i> Fellow of Palistan society of internal Medicine (FPSIM)</p>
                     <hr />
                     <div class="contact-title">
                         <i class="fa fa-calendar-alt"></i>
                         <div class="contact-title_icon">
-                            <p>On Monday to Saturday</p>
-                            <h6>2 PM to 8 PM</h6>
+                            <p>On Sunday</p>
+                            <h6>10 PM to 1 PM (On appointment)</h6>
                         </div>
                     </div>
                     {{-- <div class="newsletter-subscribe">

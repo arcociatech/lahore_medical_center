@@ -22,7 +22,7 @@
                             </ul>
                         </div>
                         <h4>Dr. Anam Shareef</h4>
-                        <p>Gynaecologist Specialist</p>
+                        <p>Consultant Gynaecologist</p>
                     </div>
                 </div>
             </div>
@@ -41,6 +41,7 @@
                     <p><i class="fas fa-award"></i> M.B.B.S.</p>
                     <p><i class="fas fa-award"></i> R.M.P.</p>
                     <p><i class="fas fa-award"></i> Consultant Gynaeoscopic & Obstetrician</p>
+                    <p><i class="fas fa-award"></i> Women Medical Officer</p>
 
                     <hr />
                     <div class="contact-title">

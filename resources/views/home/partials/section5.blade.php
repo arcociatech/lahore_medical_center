@@ -13,7 +13,7 @@
                 <div class="doctors-slider">
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('assets/images/doctor/4.jpg')}}" class="img-fluid" alt="#" height="300px" width="300px"/>
+                            <img src="{{asset('assets/images/doctor/team2.jpg')}}" class="img-fluid" alt="#" />
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -29,8 +29,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <h4>Dr.Muhammad Anas</h4>
-                        <p>Child Specialist</p>
+                        <h4>Dr.Muhammad Afzal Ch.</h4>
+                        <p>Gastroenterologist Specialist</p>
                     </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
@@ -51,11 +51,11 @@
                             </ul>
                         </div>
                         <h4>Dr. Shahida Husain Tarar</h4>
-                        <p>Gynaecologist Specialist</p>
+                        <p>Consultant Gynaecologist</p>
                     </div>
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
-                            <img src="{{asset('assets/images/doctor/team2.jpg')}}" class="img-fluid" alt="#" />
+                            <img src="{{asset('assets/images/doctor/4.jpg')}}" class="img-fluid" alt="#" height="300px" width="300px"/>
                             <ul class="social-icons">
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -71,9 +71,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <h4>Dr.Muhammad Afzal Ch.</h4>
-                        <p>Gastroenterologist Specialist</p>
+                        <h4>Dr.Muhammad Anas</h4>
+                        <p>Child Specialist</p>
                     </div>
+
                     <div class="team-img_block blue">
                         <div class="team-img-socila-block">
                             <img src="{{asset('assets/images/doctor/1.jpg')}}" class="img-fluid" alt="#" />
@@ -92,8 +93,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <h4>Dr. Fouzia</h4>
-                        <p>Gynaecologist Specialist</p>
+                        <h4>Dr. Fouzia Saghir</h4>
+                        <p>Consultant Gynaecologist</p>
                     </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
@@ -113,8 +114,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <h4>Dr. Aman Shareef</h4>
-                        <p>Gynaecologist Specialist</p>
+                        <h4>Dr. Anam Shareef</h4>
+                        <p>Consultant Gynaecologist</p>
                     </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
@@ -136,6 +137,27 @@
                         </div>
                         <h4>Dr. Mahnoor Shehzadi</h4>
                         <p>Physiotherapist Specialist</p>
+                    </div>
+                    <div class="team-img_block blue">
+                        <div class="team-img-socila-block">
+                            <img src="{{asset('assets/images/doctor/3.jpg')}}" class="img-fluid" alt="#" />
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4>Dr. Marina</h4>
+                        <p>Consultant Gynaecologist</p>
                     </div>
                     {{-- <div class="team-img_block yellow">
                         <div class="team-img-socila-block">

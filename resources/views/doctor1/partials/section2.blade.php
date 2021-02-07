@@ -22,7 +22,7 @@
                             </ul>
                         </div>
                         <h4>Dr. Shahida Husain Tarar</h4>
-                        <p>Gynaecologist Specialist</p>
+                        <p>Consultant Gynaecologist</p>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                     <h6>Qualification of Dr. Shahida Husain Tarar</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S., F.C.P.S. Dip MIS(Germany)</p>
                     <p><i class="fas fa-award"></i> Certified Laproscopic Surgeon</p>
-                    <p><i class="fas fa-award"></i> Consultant Gynaeoscopic & Obstetrician</p>
+                    <p><i class="fas fa-award"></i> Consultant Gynaecologist & Obstetrician</p>
                     <p><i class="fas fa-award"></i> Associate Professor Obs. & Gyn. N.S.M.C UOG</p>
 
                     <hr />

@@ -61,7 +61,7 @@
                         </ul>
                         <p> Gynaecology provides our patients with different alternatives for private medicine and medical specialty care whereas providing a simple-access methodology of complete attention for girls. Our gynaecologists perform numerous varieties of procedures to contend with each common and rare medical specialty conditions, addressing different specialists to produce the simplest to require care of patients. they provide non-invasive treatment whenever you'll to minimize patient discomfort and promote quicker healing. They’ve in depth expertise of epithelial duct and laparoscopic approaches, additionally to reconstruction surgery, the restoration of standard anatomy and performance.
                         </p>
-                        <span>Dr. Fouzia</span>
+                        <span>Dr. Fouzia Saghir</span>
                     </div>
 
                     <div class="testimonial-style2">
@@ -90,6 +90,21 @@
                         These mainly include paralytic care, frozen shoulder,Bells palsy,sciatica,ankle sprain,Arthiritis,joints pain,muscular spasm,spine problems,Gynecological and pediatric physiotherapy. She has 2 years of experience in this field.
                         </p>
                         <span>Dr. Mahnoor Shahzadi</span>
+                    </div>
+                    <div class="testimonial-style2">
+                        <img src="{{asset('assets/images/doctor/3.jpg')}}" alt="#" height="300px" width="300px">
+                        <ul>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                        <p>
+                        Our Gynaecologist offer a variety of techniques to treat the condition of any rare health specialty, and speak to various specialists to simplify healthcare needs.
+                        They offer non-invasive treatment to reduce patient discomfort and promote faster recovery whenever you want. They have extensive experience in endoscopic and epithelial methods, as well as reconstructive surgeries, anatomy restoration, and normal performance.
+                        </p>
+                        <span>Dr. Marina</span>
                     </div>
                 </div>
                 <hr>

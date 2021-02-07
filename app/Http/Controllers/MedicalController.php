@@ -97,11 +97,17 @@ class MedicalController extends Controller
         return view('doctor5.index');
     }
 
-    // Doctor5 view
+    // Doctor6 view
     public function doctor6()
     {
         return view('doctor6.index');
     }
+
+     // Doctor7 view
+     public function doctor7()
+     {
+         return view('doctor7.index');
+     }
 
     // Machinery view
     public function machinery()

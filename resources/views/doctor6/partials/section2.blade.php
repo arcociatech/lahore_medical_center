@@ -22,7 +22,7 @@
                             </ul>
                         </div>
                         <h4>Dr. Mahnoor Shehzadi</h4>
-                        <p>Physiotherapist Specialist</p>
+                        <p>Consultant Physiotherapist</p>
                     </div>
                 </div>
             </div>

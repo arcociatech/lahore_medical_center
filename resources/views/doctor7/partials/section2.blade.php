@@ -21,7 +21,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <h4>Dr. Fouzia Saghir</h4>
+                        <h4>Dr. Marina </h4>
                         <p>Consultant Gynaecologist</p>
                     </div>
                 </div>
@@ -29,15 +29,16 @@
             <div class="col-md-12 col-lg-6">
                 <div class="video-play-text">
                     {{-- <span>Who we are -----</span> --}}
-                    <h2>Dr. Fouzia</h2>
+                    <h2>Dr. Marina</h2>
 
                     <p class="text-justify">
-                        Gynaecology provides our patients with different alternatives for private medicine and medical specialty care whereas providing a simple-access methodology of complete attention for girls. Our gynaecologists perform numerous varieties of procedures to contend with each common and rare medical specialty conditions, addressing different specialists to produce the simplest to require care of patients. they provide non-invasive treatment whenever you'll to minimize patient discomfort and promote quicker healing. They’ve in depth expertise of epithelial duct and laparoscopic approaches, additionally to reconstruction surgery, the restoration of standard anatomy and performance.
+                        The Department of Gynecology offers our patients a wide range of personalized medications, specialized healthcare and provides an easy way to treat girls. Our Gynaecologist offer a variety of techniques to treat the condition of any rare health specialty, and speak to various specialists to simplify healthcare needs.
+                        They offer non-invasive treatment to reduce patient discomfort and promote faster recovery whenever you want. They have extensive experience in endoscopic and epithelial methods, as well as reconstructive surgeries, anatomy restoration, and normal performance.
                     </p>
                     <p class="text-justify">
                         They contend with a good vary of problems, as well as OB, or maternity and birthing, discharge and fertility problems, sexually transmitted infections (STIs), secretion disorders, and others.
                     </p>
-                    <h6>Qualification of Dr. Fouzia</h6>
+                    <h6>Qualification of Dr. Marina</h6>
                     <p><i class="fas fa-award"></i> M.B.B.S. </p>
                     <p><i class="fas fa-award"></i> F.C.P.S. </p>
                     <p><i class="fas fa-award"></i> Consultant Gynaeoscopic & Obstetrician</p>

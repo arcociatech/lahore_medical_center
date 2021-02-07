@@ -39,7 +39,7 @@
                                             </li>
 
                                             <li class="nav-item">
-                                                <a class="dropdown-item" href="{{url('fouzia/')}}">Dr. Fouzia</a>
+                                                <a class="dropdown-item" href="{{url('fouzia-saghir/')}}">Dr. Fouzia Saghir</a>
                                             </li>
 
                                             <li class="nav-item">
@@ -48,6 +48,10 @@
 
                                             <li class="nav-item">
                                                 <a class="dropdown-item" href="{{url('mahnoor-shehzadi/')}}">Dr. Mahnoor Shehzadi </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="dropdown-item" href="{{url('marina/')}}">Dr. Marina </a>
                                             </li>
 
                                         </ul>
