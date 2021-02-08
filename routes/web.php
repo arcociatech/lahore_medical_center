@@ -84,3 +84,11 @@ Route::group(['prefix' => 'notice_board'], function () {
     Route::put('/edit/{id}','NoticeBoardController@update');//update
     Route::delete('/{id}','NoticeBoardController@destroy');//delete
 });
+
+
+Route::get('optimize-clear', function () {
+    \Artisan::call('optimize:clear');
+});
+Route::get('migrate-fresh', function () {
+    \Artisan::call('migrate:fresh --seed');
+});
