@@ -86,7 +86,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright">
-                    <p>© {{config('app.name')}} {{now()->year}} Allright Reserved</p>
+                    <p>
+                        © {{config('app.name')}} {{now()->year}} Allright Reserved
+                        Developed by <a href="http://arcocia.tech/">Arcocia</a>
+                    </p>
                     <a href="#" id="scroll"><i class="fas fa-angle-double-up"></i></a>
                 </div>
             </div>
