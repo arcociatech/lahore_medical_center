@@ -21,7 +21,7 @@
                         Our technology help patients overcome injuries and diseases or treating chronic illnesses.
                     </p>
                     <p>
-                        From pregnancy tests to ultrasound scans, medical technology is with you from before you are born. We have best Technologies for this purpose and also for different purposes. Medical technology is found across the whole care pathway, it accelerates recovery and keeps people healthy.
+                        From pregnancy tests to ultrasound scans, medical technology is with you from before you are born. We have best Technologies for this purpose and also for different purposes. Medical technology is found across the whole care pathway, it accelerates recovery and keeps people healthy. Our dedicated team of Gynecologists under supervision of Dr. Shahida Husain Tarar provide advanced services for infertile couples including IUI, IVF & ICSI.
 
                     </p>
                     <hr />
