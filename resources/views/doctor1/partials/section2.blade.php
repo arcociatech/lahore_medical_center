@@ -22,7 +22,7 @@
                             </ul>
                         </div>
                         <h4>Dr. Shahida Husain Tarar</h4>
-                        <p>Consultant Gynaecologist</p>
+                        <p>Associate Professor Gynecology & Obstetrics</p>
                     </div>
                 </div>
             </div>

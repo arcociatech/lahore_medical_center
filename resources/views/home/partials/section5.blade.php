@@ -30,7 +30,7 @@
                             </ul>
                         </div>
                         <h4>Dr.Muhammad Afzal Ch.</h4>
-                        <p>Gastroenterologist Specialist</p>
+                        <p>Associate Professor Medicine</p>
                     </div>
                     <div class="team-img_block yellow">
                         <div class="team-img-socila-block">
@@ -51,7 +51,7 @@
                             </ul>
                         </div>
                         <h4>Dr. Shahida Husain Tarar</h4>
-                        <p>Consultant Gynaecologist</p>
+                        <p>Associate Professor Gynecology & Obstetrics</p>
                     </div>
                     <div class="team-img_block green">
                         <div class="team-img-socila-block">
@@ -136,7 +136,7 @@
                             </ul>
                         </div>
                         <h4>Dr. Mahnoor Shehzadi</h4>
-                        <p>Physiotherapist Specialist</p>
+                        <p>Physiotherapist</p>
                     </div>
                     <div class="team-img_block blue">
                         <div class="team-img-socila-block">
