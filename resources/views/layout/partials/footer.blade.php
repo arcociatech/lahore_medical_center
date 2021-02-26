@@ -14,10 +14,13 @@
                     <a href="tel:053-9260459">
                         <h4><i class="fas fa-phone"></i>053-9260459</h4>
                     </a>
-                    <a href="mailto:lmcgujrat@gmail.com">
-                        <h4><i class="far fa-envelope"></i><span class="__cf_email__"
-                                data-cfemail="b3daddd5dcf3ded6d7d6d7dadd9dd0dcde">lmcgujrat@gmail.com
-                            </span></h4>
+                    <a href="mailto:info@lahoremedicalcenter.com">
+                        <h4>
+                            <i class="far fa-envelope"></i>
+                            <span >
+                                info@lahoremedicalcenter.com
+                            </span>
+                        </h4>
                     </a>
                     {{-- <a href="mailto:Text@gmail.com">Text@gmail.com</a> --}}
                 </div>
