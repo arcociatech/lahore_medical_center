@@ -22,7 +22,7 @@
                             </span>
                         </h4>
                     </a>
-                    {{-- <a href="mailto:Text@gmail.com">Text@gmail.com</a> --}}
+                    {{-- <a hre`f="mailto:Text@gmail.com">Text@gmail.com</a> --}}
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">

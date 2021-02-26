@@ -12,7 +12,7 @@
             <div class="col-md-12">
                 <div class="service-slider">
                     <div class="service-block yellow">
-                        <img src="{{asset('images/service-icon1.png')}}" alt="#">
+                        <img src="{{asset('images/service-icon2.png')}}" alt="#">
                         <h3>Gynaecology</h3>
                         <p class="text-justify">
                              Gynaecology provides our patients with assorted selections for personal obstetric and gynaecologic care while offering a simple-access method of complete healthcare for ladies.
@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="service-block green">
-                        <img src="{{asset('images/service-icon2.png')}}" alt="#" />
+                        <img src="{{asset('images/service-icon3.png')}}" alt="#" />
                         <h3>Gastroenterology</h3>
                         <p class="text-justify">
                             Gastroenterologists at Lahore Medical Center specialize in diagnosing and liver disorders.These mainly include conditions involving the pancreas, liver, stomach, small intestine.
